@@ -3,7 +3,12 @@ import React, { Component } from 'react'
 export default class Header extends Component {
   render() {
     return (
-      <div>Header</div>
+      <header>
+        <header>
+          <h1>web Quiz</h1>
+          <img src="images.png" alt="logo" />
+        </header>
+      </header>
     )
   }
 }
